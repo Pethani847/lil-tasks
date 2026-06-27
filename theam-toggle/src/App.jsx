@@ -40,7 +40,7 @@ function App() {
       </div>
     </nav>
     <main className='flex items-center h-full justify-center text-center p-8'>
-      <div>
+      <div>6
          <h1 className='text-9xl mb-18' >sayy, Hellow!!!</h1>
          <div className='w-230'>
          <p className='text-3xl mb-5'>We Start every project by listening intently to your goals and documenting a clear path forward!</p>
