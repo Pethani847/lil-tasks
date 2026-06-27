@@ -13,7 +13,6 @@ function App() {
     }
   }, [theme] )
 
-
   // let handleSelect = (e) => {
   //      setTheme(e.target.value);
   // }
