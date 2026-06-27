@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
 
-  let [theme, setTheme] = useState("light")
+  let [theme, setTheme] = useState("light");
 
   useEffect(() => {
     if(theme === "dark") {
@@ -10,7 +10,8 @@ function App() {
     } else {
      document.documentElement.classList.remove("dark");
     }
-  }, [theme] )
+  }, [theme] );
+
   // let handleSelect = (e) => {
   //      setTheme(e.target.value);
   // }
