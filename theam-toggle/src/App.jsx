@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import heroImage from './assets/hero.jpg'
 
 function App() {
 
@@ -12,7 +11,6 @@ function App() {
      document.documentElement.classList.remove("dark");
     }
   }, [theme] )
-
   // let handleSelect = (e) => {
   //      setTheme(e.target.value);
   // }
