@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-lbg dark:bg-bbg dark:text-bf flex flex-col h-[100vh]'>
+    <div className="bg-lbg dark:bg-bbg dark:text-bf flex flex-col h-screen">
     <nav className='px-16 py-8 border-b-2 w-full flex justify-between items-center '>
       <div className='text-2xl font-bold' >Logo</div>
       <div className='flex text-xl gap-10'>
@@ -38,7 +38,7 @@ function App() {
       </div>
     </nav>
     <main className='flex items-center h-full justify-center text-center p-8'>
-      <div>6
+      <div>
          <h1 className='text-9xl mb-18' >sayy, Hellow!!!</h1>
          <div className='w-230'>
          <p className='text-3xl mb-5'>We Start every project by listening intently to your goals and documenting a clear path forward!</p>
