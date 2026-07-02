@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="Style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>Job Application Form</h1>
+      <form>
+        <div class="section">
+        <fieldset>
+          <legend>Personal Information</legend>
+            <div class="personal-info">
+                <div class="input">
+              <label for="name">Name: </label>
+              <div class="input3">
+              <input type="text"  id="first-name" placeholder="First Name" required/>
+              <input type="text" id="middle-name" placeholder="Middle Name" />
+              <input type="text" id="last name" placeholder="Last Name" required />
+              </div>  
+            </div>
+            <div class="input2">
+                <div class="input">
+              <label for="email">Email: </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="number">Number: </label>
+              <input
+                type="number"
+                id="number"
+                placeholder="+91"
+                name="tel"
+                required
+              />
+            </div>
+            </div>
+            <div class="input2">
+              <div class="input">
+              <label for="DOB">Date of Birth: </label>
+              <input type="date" id="DOB" name="DOB" />
+              </div>
+              <div class="input">
+              <label for="gender">Gender: </label>
+              <select id="gender">
+                <option value="Select">Select</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Other">Other</option>
+              </select>
+              </div>
+              </div>
+              <div class="input">
+              <label for="address">Address: </label>
+              <textarea
+                id="address"
+                placeholder="area, city, contry, pincode"
+              ></textarea>
+              </div>
+            </div>
+        
+        </fieldset>
+        </div>
+        <div class="section">
+        <fieldset>
+          <legend>Profetional Information</legend>
+            <div class="profetional-info">
+                <div class="input">
+              <label for="post">Position Applied For: </label>
+              <input
+                type="text"
+                id="post"
+                name="post"
+                placeholder="Designation"
+              />
+                </div>
+                <div class="input2">
+                <div class="input">
+              <label for="department">Department: </label>
+              <input
+                type="text"
+                id="department"
+                name="department"
+                placeholder="Department"
+              />
+                </div>
+                <div class="input">
+              <label for="experience">Experience: </label>
+              <input
+                type="text"
+                id="experience"
+                name="experience"
+                placeholder="Experience"
+              />
+                </div>
+                </div>
+                <div class="input">
+              <label for="salary">Expected Salary: </label>
+              <input
+                type="number"
+                id="salary"
+                name="salary"
+                placeholder="Salary"
+              />
+                </div>
+            </div>
+        </fieldset>
+        </div>
+        <div class="section">
+        <fieldset>
+          <legend>Education Detail</legend>
+            <div class="education">
+                <div class="input">
+              <label for="qualification">Highest Qualification: </label>
+              <input
+                type="text"
+                id="qualification"
+                name="qualification"
+                placeholder="Degree Name"
+              />
+                </div>
+                <div class="input2">
+                <div class="input">
+              <label for="university">University: </label>
+              <input
+                type="text"
+                id="university"
+                name="university"
+                placeholder="University Name"
+              />
+                </div>
+                <div class="input">
+              <label for="passing-year">Passing Year: </label>
+              <input
+                type="number"
+                id="passing-year"
+                name="passing-year"
+                min="1989"
+                max="2026"
+                value="2026"
+                step="1"
+                placeholder="YYYY"
+              />
+                </div>
+                </div>
+            </div>
+        </fieldset>
+        </div>
+        <div class="section">
+        <fieldset>
+          <legend>Skills</legend>
+            <div class="skill">
+                <div class="input2">
+                <div class="skill-item">
+              <input type="checkbox" id="html" name="Skill" value="HTML" />
+              <label for="html">HTML</label>
+              </div>
+              <div class="skill-item">
+              <input type="checkbox" id="css" name="Skill" value="css" />
+              <label for="css">CSS</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="javaScript"
+                name="Skill"
+                value="javaScript"
+              />
+              <label for="javaScript">JavaScript</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="node.js"
+                name="Skill"
+                value="node.js"
+              />
+              <label for="node.js">node.js</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="express.js"
+                name="Skill"
+                value="express.js"
+              />
+              <label for="express.js">express.js</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="react.js"
+                name="Skill"
+                value="react.js"
+              />
+              <label for="react.js">react.js</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="Bootstrap"
+                name="Skill"
+                value="Bootstrap"
+              />
+              <label for="Bootstrap">Bootstrap</label>
+              </div>
+              <div class="skill-item">
+              <input type="checkbox" id="mySQL" name="Skill" value="mySQL" />
+              <label for="mySQL">mySQL</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="MongoDB"
+                name="Skill"
+                value="MongoDB"
+              />
+              <label for="MongoDB">MongoDB</label>
+              </div>
+              <div class="skill-item">
+              <input type="checkbox" id="Git" name="Skill" value="Git" />
+              <label for="Git">Git</label>
+              </div>
+              <div class="skill-item">
+              <input type="checkbox" id="VsCode" name="Skill" value="VsCode" />
+              <label for="VsCode">VsCode</label>
+              </div>
+              <div class="skill-item">
+              <input
+                type="checkbox"
+                id="Tailwind"
+                name="Skill"
+                value="Tailwind"
+              />
+              <label for="Tailwind">Tailwind</label>
+              </div>
+              </div>
+              <div class="input">
+              <label for="other">Other: </label>
+              <textarea
+                id="other"
+                name="Other Skill"
+                placeholder="Other Skill"
+              ></textarea>
+              </div>
+            </div>
+        </fieldset>
+        </div>
+        <div class="section">
+        <fieldset>
+          <legend>Links</legend>
+            <div class="links">
+                <div class="input2">
+                <div class="input">
+              <label for="linkdinURL">Linkdin: </label>
+              <input type="url" id="linkdinURL" name="linkdinURL" />
+                </div>
+                <div class="input">
+              <label for="Portfolio">Portfolio: </label>
+              <input type="url" id="Portfolio" name="portfolio" />
+                </div>
+            </div>
+            </div>
+        </fieldset>
+        </div>
+        <div class="section">
+        <fieldset>
+          <legend>Documents</legend>
+            <div class="document">
+                <div class="input">
+              <label for="resume">Upload Your Resume/CV: </label>
+              <input type="file" id="resume" name="resume" />
+            </div>
+            </div>
+        </fieldset>
+        </div>
+        <div class="section">
+        <fieldset>
+          <legend>Terms & Policy</legend>
+            <div class="declaration">
+                <div>
+              <input type="checkbox" id="declaration" />
+              <label for="declaration"
+                >By submitting this application, I certify that all statements
+                made in this form and any attached documents are true, complete,
+                and accurate to the best of my knowledge. I understand that any
+                false statements, misrepresentations, or omissions may result in
+                the rejection of my application or immediate termination if
+                employed.I authorize [Company Name] to verify the information
+                provided, contact my references, and perform background checks
+                where applicable by law. I understand that this application does
+                not constitute an offer of employment or a contract.</label
+              >
+            </div>
+            </div>
+        </fieldset>
+        </div>
+        <div class="section">
+          <div class="btn">
+            <button>Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

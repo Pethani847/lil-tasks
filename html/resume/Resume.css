@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff ;
+    font-family: playfair display, serif;
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 25px;
+    margin: 35px;
+    border: 2px solid black;
+    width: 800px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+}
+
+hr {
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.sec-title {
+    background-color: #115E59;
+    color: white; 
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.designation {
+    margin-bottom: 15px;
+}
+
+.contact {
+     display: flex;
+     gap: 25px;
+}
+
+i {
+    color: #115E59
+}
+
+.summary p{
+    line-height: 1.5;
+}
+
+.Skill-title {
+    display: flex;
+    gap: 20px;
+}
+
+.skill-cat {
+    width: 120px;
+    
+}
+
+.finally-skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.finally-skills span {
+    background-color: #dae7e4;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-time {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+    margin-bottom: 10px;
+}   
+
+.job-description ul {
+    margin-left: 25px;
+}
+
+.tital {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+    margin-bottom: 10px;
+}
+
+h1, h2, h4 {
+    color: #0F766E;
+}
